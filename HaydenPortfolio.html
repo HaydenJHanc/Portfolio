@@ -105,6 +105,27 @@ a:hover
     padding: 5px;
     border-radius: 5px;
 }
+
+.banner {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+	
+.banner a {
+    color: white;
+    margin: 0 5px;
+    text-decoration: none;
+}
+	
+.section {
+    padding: 100px 20px;
+    margin-top: 50px; 
+}
 </style>
 
 </head>
@@ -119,19 +140,27 @@ a:hover
 
 <h4><a href="Hayden Resume-1.pdf">Download Resume (PDF)</a></h4>
 
+<div class="banner">
+    <a href="#fall2022">Fall 2022</a>
+    <a href="#spring2023">Spring 2023</a>
+    <a href="#fall2023">Fall 2023</a>
+    <a href="#spring2024">Spring 2024</a>
+    <a href="#summer2024">Summer 2024</a>
+</div>
+
 <h1>Portfolio in Chronological Order</h1>
 
 <h2>Hancock Farms Map (Censored)</h2>
 <h3>Dr. Zook, GEO 109 (Digital Mapping) Fall 2022</h3>
 <p>This was the first major GIS project I ever worked on. Given that the assignment was due near Christmas, I thought I could make a map of our family as a Christmas present for my parents. The map has street names and other identifying information censored for obvious reasons. This project was very simple, I just traced the Google Earth base layer and imported the topography Shapefile from the USGS website.</p>
 
-<div class="big-image">
+<div id="fall2022" class="big-image">
     <img src="Hancock_Farms_Censored.png" alt="WCDUS127.png">
 </div>
 
 <h4><a href="Hancock_Farms_Censored.png">Download</a></h4>
 
-<div class="content-section">
+<div id="spring2023" class="content-section">
 	<div class="text-content">
 	<h2>Bivariate Analysis of Crop Yield</h2>
         <h3>Dr. Liang, GEO 309 (Introduction to GIS) Spring 2023</h3>
@@ -146,13 +175,15 @@ a:hover
     <img src="Tracking Urban Development in the D.P.R.K.(4).png" alt="Tracking Urban Development in the D.P.R.K.(4).png" style="box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);">
 	<div class="text-content">
 		<h2>Tracking Urban Development in the D.P.R. Korea</h2>
-        <h3>Dr. Liang, GEO 419 (Introduction to Remote Sensing) Spring 2023</h3>
+        	<h3>Dr. Liang, GEO 419 (Introduction to Remote Sensing) Spring 2023</h3>
 		<p>GEO 419 was all about remote sensing. An interesting aspect of remote sensing is that it allows us to collect data on areas where data would otherwise be unacceptable, such as the world's most authoritarian and reclusive regime, North Korea. I'm very happy with the results of this project, as the measurements for Chongjin line up almost perfectly with UN Population estimates, and you can even see how the famine in the 1990s affected the development of Hamhung. </p>
 	</div>
 </div>
 
 <h4><a href="Tracking Urban Development in the D.P.R.K.(4).png">Download</a></h4>
 
+<div id="fall2023">
+	
 <h2>The Second Battle of Lexington</h2>
 <h3>Documenting Racial Violence in Kentucky (Internship), Fall 2023</h3>
 <p>This internship tasked us with documenting instances of racial violence in Kentucky. While this was usually a case-by-case, person-to-person basis, in this project I got to track a larger incident that was a walk away from the UK campus. I got experience making a map based off an image, which I had to georefrence and trace (in this case, Sanborn Maps) as well as looking at multiple sources to see where certain things were (for example, the Tobacco Warehouse).</p>
@@ -163,6 +194,8 @@ a:hover
 
 <h4><a href="Lexington_1920(1).png">Download</a></h4>
 
+<div id="spring2024">
+	
 <h2>Wolf Creek Dam</h2>
 <h3>Boyd Shearer, GEO 409 (Advanced GIS) Spring 2024</h3>
 <p>GEO 409 focused mostly on LiDAR and using ArcPy. CS 316 (Web Programming), which I was taking in the same semester as GEO 409, allowed me to format the final project page with HTML and CSS. This project focus a lot on how to make several different services work with your GIS data (Cesium Ion, Potree, etc.) and how to make this data accessible and understandable to the general population.</p>
@@ -192,7 +225,7 @@ a:hover
 	
 <h4><a href="Elections_3.gif">Download</a></h4>
 
-<div class="content-section">
+<div id="summer2024" class="content-section">
     <img src="26ejr2866wzc1.png" alt="26ejr2866wzc1.png" style="box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);">
 	<div class="text-content">
 	<h2>The New California Republic, 2280 </h2>
