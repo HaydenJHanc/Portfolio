@@ -8,8 +8,9 @@
 <style>  
 body {
     font-family: Georgia, serif;
-    background-color: #111e2e;
-    color: #f8efd7;
+    background-color: #0b0e28;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
     margin-right: 10%;
     margin-left: 10%;
 }
@@ -109,17 +110,16 @@ a:hover
 .banner {
     top: 0;
     width: 100%;
-    background-color: #111e2e;
     color: white;
-    justify-content: center;
-    text-align: center;
-    padding: 1em 0;
+  	text-decoration: none;
+  	padding: 15px 25px;
 }
-	
-.banner a {
-    color: #f8efd7;
-    margin: 0 20px;
-    text-decoration: none;
+
+.banner:hover 
+{
+  color: #ffdd80;
+  background-color: transparent;
+  text-decoration: underline;
 }
 	
 .section {
@@ -138,10 +138,18 @@ a:hover
 
 <h4><a href="Hayden_Resume.pdf">Download Resume (PDF)</a></h4>
 
+Click on year to skip to it:
+
 <div class="banner">
     <a href="#2022">2022</a>
+</div>
+
+<div class="banner">
     <a href="#2023">2023</a>
-    <a href="#2024">Spring 2024</a>
+</div>
+
+<div class="banner">
+    <a href="#2024">2024</a>
 </div>
 
 <div id="2022">
