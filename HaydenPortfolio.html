@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hayden Portfolio</title>
+    <title>Hayden Hancock's GIS Portfolio</title>
     
 <style>  
 body {
@@ -124,6 +124,23 @@ a:hover
 	
 .section {
 }
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 </style>
 
 </head>
@@ -156,19 +173,11 @@ Click on year to skip to it:
 
 <h1>2022</h1>
 
-<h1>Portfolio in Chronological Order</h1>
-
-<h2>Hancock Farms Map (Censored)</h2>
-<h3>Dr. Zook, GEO 109 (Digital Mapping) Fall 2022</h3>
-<p>This was the first major GIS project I ever worked on. Given that the assignment was due near Christmas, I thought I could make a map of our family as a Christmas present for my parents. The map has street names and other identifying information censored for obvious reasons. This project was very simple, I just traced the Google Earth base layer and imported the topography Shapefile from the USGS website.</p>
-
-<div class="big-image">
-    <img src="Hancock_Farms_Censored.png" alt="Hancock_Farms_Censored.png">
+<div class="row">
+  <div class="column">
+    <img src="Hancock_Farms_Censored.png" alt="Hancock_Farms_Censored.png" style="width:100%">
+  </div>
 </div>
-
-<h4><a href="Hancock_Farms_Censored.png">Download</a></h4>
-
-<div id="2023">
 
 <h1>2023</h1>
 
