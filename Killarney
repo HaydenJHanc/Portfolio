@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hayden Hancock's GIS Portfolio</title>
+    
+<style>  
+body {
+    font-family: Georgia, serif;
+    background-color: #0b0e28;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.header-image {
+    background-image: url("C74C8A12-2539-40B0-87E1-05D673509CF6.jpg");
+    background-size: cover;                      
+    background-repeat: no-repeat;
+    background-position: center center; 
+    border-radius: 5px;
+    color: #eceada;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+    text-align: center;
+    padding: 10px;
+}
+
+.header-image h1 {
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.subtitle {
+    font-size: 1.2em;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+a:link {
+  color: #ffbb00;
+  background-color: transparent;
+  text-decoration: underline;
+}
+	
+a:visited {
+  color: #8a6500;
+  background-color: transparent;
+  text-decoration: underline;
+}
+	
+a:hover {
+  color: #ffdd80;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.big-image img {
+    width: 90%;
+    display: block;
+    margin: auto;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+    border-radius: 5px;
+}
+</style>
+</head>
+<body>
+
+<div class="header-image">
+    <h1>Hayden Hancock</h1>
+    <p class="subtitle">University of Kentucky, Class of 2025</p>
+    <p>School Email: hjha230@uky.edu</p>
+    <p>Email: hayden.hancock.813@gmail.com</p>
+</div>
+
+<h4><a href="https://haydenjhanc.github.io/Portfolio/HaydenPortfolio.html">Return to Portfolio</a></h4>
+	
+<h2>Páirc Náisiúnta Chill Airne</i> (Killarney National Park)</h2>
+<h3>Summer 2024</h3>
+<p>In anticipation of my upcoming trip to Ireland, I made a map of one of my planned destinations, Killarney National Park. I made sure to include Irish translations for most features on this map, as the Irish language is currently fighting endangermant.</p>
+
+<div class="big-image">
+<img src="1000103925.jpg" alt="1000103925.jpg">
+</div>
+
+<h4><a href="1000103925.jpg">Download</a></h4>
+
+</body>
+</html>
