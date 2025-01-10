@@ -132,11 +132,13 @@ a:hover
 .column {
   float: left;
   width: 33.33%;
-  image-resolution: 80dpi
   padding: 5px;
+  transition: 0.3s ease-in-out;
+}
+.column:hover{
+    transform: scale(1.1);
 }
 
-/* Clearfix (clear floats) */
 .row::after {
   content: "";
   clear: both;
